@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<style>
+    
+
+
+</style>
+<body>
+
+    <h1>Contact Us</h1>
+    <div class="center">   
+         <form action="#" method="post">
+        <label for="Full Name">Full Name - </label><br>
+        <input type="text" id="Full Name" minlength="3" maxlength="15" ><br>
+        <label for="Mobile Number">Mobile Number - </label><br>
+        <input type="Mobile number" id="Mobile number" minlength="9" required pattern="[6-9][0-9]{9}" title="Enter 10 Digit Mobile Number"><br>
+        <label for="Email Address">Email Address - </label><br>
+        <input type="Email" id="Email" name="Email"><br>
+        <label for="select catagory">select catagory - </label><br>
+        <select name="select catagory" id="">
+            <option value="">--Please Select--</option>
+            <option value="10th Pass">10th Pass</option>
+            <option value="120th Pass">12th Pass</option>
+            <option value="Diploma">Diploma</option>
+            <option value="Degree">Degree</option>
+            <option value="Graduation">Graduation</option>
+            <option value="Master">Master</option>
+            <option value="PHD and Others">PHD and Others</option>
+        </select> <br><br>
+        <label for="Write your feedback">Write your feedback - </label><br>
+        <textarea  name="Message" id="message" rows="5" minlength="10" maxlength="500"></textarea><br>
+        <button type="Submit">Submit</button>
+    </form></div>
+
+</body>
+</html>
